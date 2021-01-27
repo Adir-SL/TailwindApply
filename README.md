@@ -14,7 +14,9 @@ button {
   --apply: bg-blue-500 text-white px-5 py-2 m-4 rounded-md hover:bg-blue-600;
 }
 ```
-If you copy the style above now your HTML buttons should be blue and rounded, congrats!
+If you copy the style above to your HTML , your buttons should now be blue and rounded, congrats!
+
+Feel free to write any Tailwind CSS styles in your --apply property, for reference: <a href="https://tailwindcss.com/docs/utility-first">Tailwind CSS documentation</a>
 
 # How does it work
 The script takes your --apply CSS Variable and apply it to your page, that's why you can't write @apply as you would when building Tailwind CSS using PostCSS, but the upside of writing it with CSS Variable is that you can use the public CDN of the Tailwind CSS styles, just like so:
